@@ -1,7 +1,7 @@
-nombre_1 = input("Hola como es tu nombre?")
-edad_1 = int(input('Cuantos años tenes?' + nombre_1))
-nombre_2 = input('y tu amigo ¿como se llamas?')
-edad_2 = int(input('y cuantos años tiene?' + nombre_2))
+nombre_1 = input("Hola como es tu nombre?\n")
+edad_1 = int(input('Cuantos años tenes ' + nombre_1 + '?\n'))
+nombre_2 = input('y tu amigo ¿como se llamas?\n')
+edad_2 = int(input('y cuantos años tiene ' + nombre_2 + '?\n'))
 
 
 if edad_1 > edad_2:
